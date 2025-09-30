@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/setup",
+      "destination": "https://printerhub.vercel.app",
+      "permanent": true
+    }
+  ]
+}
