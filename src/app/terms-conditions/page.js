@@ -61,6 +61,9 @@ export default function TermsConditions() {
                                     <span>Terms & Conditions</span>
                                     <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600"></div>
                                 </a>
+                                <a href="/eula" className="group relative px-4 py-2 text-gray-700 rounded-lg text-sm font-medium transition-all duration-300">
+                                    EULA
+                                </a>
                             </div>
                         </div>
 

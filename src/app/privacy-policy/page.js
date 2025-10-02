@@ -76,6 +76,9 @@ export default function PrivacyPolicy() {
                                     <span>Terms & Conditions</span>
                                     <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></div>
                                 </a>
+                                <a href="/eula" className="group relative px-4 py-2 text-gray-700 rounded-lg text-sm font-medium transition-all duration-300">
+                                    EULA
+                                </a>
                             </div>
                         </div>
 

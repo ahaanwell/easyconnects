@@ -22,18 +22,32 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  NowStart Solution
-                </div>
-              </div>
-            </Link>
+            <Link
+  href="/"
+  className="flex items-center focus:outline-none focus-visible:outline-none"
+>
+  <div className="flex items-center space-x-3">
+    <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+      <svg
+        className="w-6 h-6 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M13 10V3L4 14h7v7l9-11h-7z"
+        />
+      </svg>
+    </div>
+    <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      NowStart Solution
+    </div>
+  </div>
+</Link>
+
 
             {/* Desktop Navigation */}
             <div className="hidden lg:block">
@@ -286,8 +300,11 @@ export default function Home() {
 
               <div className="flex items-center justify-center lg:justify-start text-sm text-blue-200">
                 <input type="checkbox" className="mr-3 w-4 h-4 text-blue-600 bg-white/10 border-white/30 rounded focus:ring-blue-500" />
+                <Link href="/eula" className="hover:underlines">
                 I agree to EULA and Privacy Policy
+                </Link>
               </div>
+
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-8 mt-12">
@@ -1187,7 +1204,9 @@ export default function Home() {
 
             <div className="flex items-center justify-center text-sm text-blue-200 mb-12">
               <input type="checkbox" className="mr-3 w-5 h-5 text-blue-600 bg-white/10 border-white/30 rounded focus:ring-blue-500" />
-              I agree to EULA and Privacy Policy
+              <Link href="/eula" className="hover:underlines">
+                I agree to EULA and Privacy Policy
+                </Link>
             </div>
 
             {/* Trust Indicators */}
@@ -1365,7 +1384,7 @@ export default function Home() {
                 Legal
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors flex items-center group">
+                <li><a href="/eula" className="text-gray-400 hover:text-white transition-colors flex items-center group">
                   <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
