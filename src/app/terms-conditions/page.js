@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function TermsConditions() {
@@ -28,7 +29,7 @@ export default function TermsConditions() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Logo */}
-                        <div className="flex items-center">
+                        <Link href="/" className="flex items-center">
                             <div className="flex items-center space-x-3">
                                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
                                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,10 +37,10 @@ export default function TermsConditions() {
                                     </svg>
                                 </div>
                                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                    Start Solution
+                                    NowStart Solution
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
                         {/* Desktop Navigation */}
                         <div className="hidden lg:block">
@@ -109,7 +110,7 @@ export default function TermsConditions() {
                             Terms & Conditions
                         </h1>
                         <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-                            Please read these terms carefully. By using Start Solution, you agree to be bound by these terms.
+                            Please read these terms carefully. By using NowStart Solution, you agree to be bound by these terms.
                         </p>
                         <div className="flex items-center justify-center space-x-4 text-purple-200">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -139,7 +140,7 @@ export default function TermsConditions() {
                             </div>
                             <div className="space-y-6 text-gray-700">
                                 <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border border-purple-100">
-                                    <p className="text-lg leading-relaxed">Welcome to Start Solution. These Terms and Conditions ("Terms") govern your use of our PC optimization software and services. By downloading, installing, or using Start Solution, you agree to be bound by these Terms.</p>
+                                    <p className="text-lg leading-relaxed">Welcome to NowStart Solution. These Terms and Conditions ("Terms") govern your use of our PC optimization software and services. By downloading, installing, or using NowStart Solution, you agree to be bound by these Terms.</p>
                                 </div>
 
                                 <div className="bg-gradient-to-r from-blue-100 to-indigo-100 rounded-xl p-8 border border-blue-200">
@@ -151,7 +152,7 @@ export default function TermsConditions() {
                                         </div>
                                         <h3 className="text-xl font-semibold text-blue-800">Important Notice</h3>
                                     </div>
-                                    <p className="text-blue-700 text-lg">If you do not agree to these Terms, please do not use our software. Your continued use of Start Solution constitutes acceptance of any updates to these Terms.</p>
+                                    <p className="text-blue-700 text-lg">If you do not agree to these Terms, please do not use our software. Your continued use of NowStart Solution constitutes acceptance of any updates to these Terms.</p>
                                 </div>
                             </div>
                         </section>
@@ -159,7 +160,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Service</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>Start Solution is a comprehensive PC optimization software that provides:</p>
+                                <p>NowStart Solution is a comprehensive PC optimization software that provides:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>System cleaning and maintenance tools</li>
                                     <li>Performance optimization features</li>
@@ -175,7 +176,7 @@ export default function TermsConditions() {
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">3. License and Usage Rights</h2>
                             <div className="space-y-4 text-gray-700">
                                 <h3 className="text-xl font-semibold text-gray-900">Software License</h3>
-                                <p>Start Solution grants you a limited, non-exclusive, non-transferable license to use the software on a single computer for personal or commercial use.</p>
+                                <p>NowStart Solution grants you a limited, non-exclusive, non-transferable license to use the software on a single computer for personal or commercial use.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Permitted Uses</h3>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
@@ -197,7 +198,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">4. User Responsibilities</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>As a user of Start Solution, you agree to:</p>
+                                <p>As a user of NowStart Solution, you agree to:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>Provide accurate and complete registration information</li>
                                     <li>Maintain the confidentiality of your account credentials</li>
@@ -240,7 +241,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Intellectual Property Rights</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>Start Solution and all related trademarks, copyrights, and intellectual property are owned by Start Solution Inc. You may not use our intellectual property without written permission.</p>
+                                <p>NowStart Solution and all related trademarks, copyrights, and intellectual property are owned by Start Solution Inc. You may not use our intellectual property without written permission.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900">User Content</h3>
                                 <p>You retain ownership of any content you create or upload. By using our software, you grant us a limited license to use such content for service provision and improvement.</p>
@@ -254,7 +255,7 @@ export default function TermsConditions() {
                                 <p>Start Solution is provided "as is" without warranties of any kind. We do not guarantee that the software will be error-free or that it will meet your specific requirements.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Limitation of Liability</h3>
-                                <p>To the maximum extent permitted by law, Start Solution shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the software.</p>
+                                <p>To the maximum extent permitted by law, NowStart Solution shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the software.</p>
 
                                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
                                     <h3 className="text-lg font-semibold text-yellow-800 mb-2">Important Warning</h3>
@@ -267,20 +268,20 @@ export default function TermsConditions() {
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Termination</h2>
                             <div className="space-y-4 text-gray-700">
                                 <h3 className="text-xl font-semibold text-gray-900">Termination by You</h3>
-                                <p>You may terminate your use of Start Solution at any time by uninstalling the software and cancelling any active subscriptions.</p>
+                                <p>You may terminate your use of NowStart Solution at any time by uninstalling the software and cancelling any active subscriptions.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Termination by Us</h3>
-                                <p>We may terminate or suspend your access to Start Solution immediately, without prior notice, for any violation of these Terms or for any other reason at our sole discretion.</p>
+                                <p>We may terminate or suspend your access to NowStart Solution immediately, without prior notice, for any violation of these Terms or for any other reason at our sole discretion.</p>
                             </div>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Updates and Modifications</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>We may update Start Solution and these Terms from time to time. Updates to the software may be automatic, while changes to these Terms will be posted on our website.</p>
+                                <p>We may update NowStart Solution and these Terms from time to time. Updates to the software may be automatic, while changes to these Terms will be posted on our website.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900">Acceptance of Updates</h3>
-                                <p>Continued use of Start Solution after updates constitutes acceptance of the new terms. If you do not agree to updated terms, you must stop using the software.</p>
+                                <p>Continued use of NowStart Solution after updates constitutes acceptance of the new terms. If you do not agree to updated terms, you must stop using the software.</p>
                             </div>
                         </section>
 
@@ -291,14 +292,14 @@ export default function TermsConditions() {
                                 <p>These Terms are governed by the laws of the State of Delaware, United States, without regard to conflict of law principles.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Dispute Resolution</h3>
-                                <p>Any disputes arising from these Terms or your use of Start Solution shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.</p>
+                                <p>Any disputes arising from these Terms or your use of NowStart Solution shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.</p>
                             </div>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">12. System Requirements</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>Start Solution requires the following minimum system specifications:</p>
+                                <p>NowStart Solution requires the following minimum system specifications:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>Windows 10 or later (64-bit)</li>
                                     <li>4 GB RAM minimum (8 GB recommended)</li>
@@ -312,9 +313,9 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">13. Support and Maintenance</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>We provide technical support for Start Solution through various channels:</p>
+                                <p>We provide technical support for NowStart Solution through various channels:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
-                                    <li>Email support: support@Start Solution.com</li>
+                                    <li>Email support: support@nowstart.co</li>
                                     <li>Online knowledge base and documentation</li>
                                     <li>Community forums and user guides</li>
                                     <li>Regular software updates and security patches</li>
@@ -325,12 +326,11 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">14. Contact Information</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>For questions about these Terms or Start Solution, please contact us:</p>
+                                <p>For questions about these Terms or NowStart Solution, please contact us:</p>
                                 <div className="bg-gray-50 p-6 rounded-lg">
-                                    <p><strong>Legal Department:</strong> legal@Start Solution.com</p>
-                                    <p><strong>General Support:</strong> support@Start Solution.com</p>
-                                    <p><strong>Phone:</strong> 1-800-INFO-GONIA (1-800-463-6464)</p>
-                                    <p><strong>Address:</strong> Start Solution Inc., 123 Tech Street, Digital City, DC 12345</p>
+                                    <p><strong>Legal Department:</strong> support@nowstart.co</p>
+                                    <p><strong>General Support:</strong> support@nowstart.co</p>
+                                    <p><strong>Address:</strong> NowStart Solution., IDENTY, 164, 1st, RMV Stage 2, Sanjaynagar, Bengaluru, Urban, Karnataka, 560094</p>
                                 </div>
                             </div>
                         </section>
@@ -338,7 +338,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">15. Severability and Entire Agreement</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full force and effect. These Terms, together with our Privacy Policy and Refund Policy, constitute the entire agreement between you and Start Solution.</p>
+                                <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full force and effect. These Terms, together with our Privacy Policy and Refund Policy, constitute the entire agreement between you and NowStart Solution.</p>
                             </div>
                         </section>
                     </div>
@@ -356,7 +356,7 @@ export default function TermsConditions() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                                     </svg>
                                 </div>
-                                <div className="text-2xl font-bold">Start Solution</div>
+                                <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
                             <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
                         </div>
@@ -378,7 +378,7 @@ export default function TermsConditions() {
                         </div>
                     </div>
                     <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                        <p>&copy; 2024 Start Solution. All rights reserved.</p>
+                        <p>&copy; 2024 NowStart Solution. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

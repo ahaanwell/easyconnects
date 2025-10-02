@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "InfoGonia - Advanced PC Optimization Software",
+  title: "NowStart Solution - Advanced PC Optimization Software",
   description: "Professional PC cleaning, optimization, and security software. Clean up, speed up, and protect your computer with our advanced tools.",
 };
 

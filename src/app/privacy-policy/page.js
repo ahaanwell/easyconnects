@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function PrivacyPolicy() {
@@ -43,7 +44,7 @@ export default function PrivacyPolicy() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Logo */}
-                        <div className="flex items-center">
+                        <Link href="/" className="flex items-center">
                             <div className="flex items-center space-x-3">
                                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
                                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,10 +52,10 @@ export default function PrivacyPolicy() {
                                     </svg>
                                 </div>
                                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                    Start Solution
+                                    NowStart Solution
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
                         {/* Desktop Navigation */}
                         <div className="hidden lg:block">
@@ -179,7 +180,7 @@ export default function PrivacyPolicy() {
                                     </div>
                                     <div className="space-y-6 text-gray-700">
                                         <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
-                                            <p className="text-lg leading-relaxed">Start Solution ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our PC optimization software.</p>
+                                            <p className="text-lg leading-relaxed">NowStart Solution ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our PC optimization software.</p>
                                         </div>
 
                                         <div className="grid md:grid-cols-2 gap-6">
@@ -404,7 +405,7 @@ export default function PrivacyPolicy() {
                                                     </div>
                                                     <h3 className="text-lg font-semibold text-gray-900">Email Support</h3>
                                                 </div>
-                                                <p className="text-gray-600">privacy@Start Solution.com</p>
+                                                <p className="text-gray-600">support@nowstart.co</p>
                                             </div>
 
                                             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
@@ -417,7 +418,7 @@ export default function PrivacyPolicy() {
                                                     </div>
                                                     <h3 className="text-lg font-semibold text-gray-900">Office Address</h3>
                                                 </div>
-                                                <p className="text-gray-600">Start Solution Privacy Team<br />123 Tech Street<br />Digital City, DC 12345</p>
+                                                <p className="text-gray-600">NowStart Solution Privacy Team<br />IDENTY, 164, 1st, RMV Stage 2, Sanjaynagar, Bengaluru, Urban, Karnataka, 560094</p>
                                             </div>
                                         </div>
                                     </div>
@@ -439,7 +440,7 @@ export default function PrivacyPolicy() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                                     </svg>
                                 </div>
-                                <div className="text-2xl font-bold">Start Solution</div>
+                                <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
                             <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
                         </div>
@@ -461,7 +462,7 @@ export default function PrivacyPolicy() {
                         </div>
                     </div>
                     <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                        <p>&copy; 2024 Start Solution. All rights reserved.</p>
+                        <p>&copy; 2024 NowStart Solution. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

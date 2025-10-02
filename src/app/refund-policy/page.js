@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function RefundPolicy() {
@@ -28,7 +29,7 @@ export default function RefundPolicy() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Logo */}
-                        <div className="flex items-center">
+                        <Link href="/" className="flex items-center">
                             <div className="flex items-center space-x-3">
                                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
                                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,10 +37,10 @@ export default function RefundPolicy() {
                                     </svg>
                                 </div>
                                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                    InfoGonia
+                                    NowStart Solution
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
                         {/* Desktop Navigation */}
                         <div className="hidden lg:block">
@@ -139,7 +140,7 @@ export default function RefundPolicy() {
                             </div>
                             <div className="space-y-6 text-gray-700">
                                 <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border border-green-100">
-                                    <p className="text-lg leading-relaxed">We stand behind the quality of InfoGonia and offer a comprehensive 30-day money-back guarantee. If you're not completely satisfied with our software, you can request a full refund within 30 days of your purchase.</p>
+                                    <p className="text-lg leading-relaxed">We stand behind the quality of NowStart Solution and offer a comprehensive 30-day money-back guarantee. If you're not completely satisfied with our software, you can request a full refund within 30 days of your purchase.</p>
                                 </div>
 
                                 <div className="bg-gradient-to-r from-green-100 to-emerald-100 rounded-xl p-8 border border-green-200">
@@ -190,7 +191,7 @@ export default function RefundPolicy() {
                             <div className="space-y-4 text-gray-700">
                                 <p>To request a refund, please follow these steps:</p>
                                 <ol className="list-decimal list-inside space-y-2 ml-4">
-                                    <li>Contact our support team at <strong>refunds@infogonia.com</strong></li>
+                                    <li>Contact our support team at <strong>support@nowstart.co</strong></li>
                                     <li>Include your order number and purchase date</li>
                                     <li>Provide a brief reason for the refund request</li>
                                     <li>Our team will process your request within 24 hours</li>
@@ -199,8 +200,7 @@ export default function RefundPolicy() {
                                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                                     <h3 className="text-lg font-semibold text-blue-800 mb-2">Alternative Contact Methods</h3>
                                     <ul className="space-y-2 text-blue-700">
-                                        <li><strong>Email:</strong> refunds@infogonia.com</li>
-                                        <li><strong>Phone:</strong> 1-800-INFO-GONIA (1-800-463-6464)</li>
+                                        <li><strong>Email:</strong> support@nowstart.co</li>
                                         <li><strong>Live Chat:</strong> Available on our website</li>
                                         <li><strong>Support Ticket:</strong> Through your account dashboard</li>
                                     </ul>
@@ -262,7 +262,7 @@ export default function RefundPolicy() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Technical Issues and Refunds</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>If you experience technical issues that prevent you from using InfoGonia effectively, we will:</p>
+                                <p>If you experience technical issues that prevent you from using NowStart Solution effectively, we will:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>Provide free technical support to resolve the issue</li>
                                     <li>Offer alternative solutions or workarounds</li>
@@ -302,11 +302,11 @@ export default function RefundPolicy() {
                             <div className="space-y-4 text-gray-700">
                                 <p>For refund requests or questions about this policy, please contact us:</p>
                                 <div className="bg-gray-50 p-6 rounded-lg">
-                                    <p><strong>Refund Support Email:</strong> refunds@infogonia.com</p>
-                                    <p><strong>General Support:</strong> support@infogonia.com</p>
-                                    <p><strong>Phone:</strong> 1-800-INFO-GONIA (1-800-463-6464)</p>
+                                    <p><strong>Refund Support Email:</strong> support@nowstart.co</p>
+                                    <p><strong>General Support:</strong> support@nowstart.co</p>
+                                    {/* <p><strong>Phone:</strong> 1-800-INFO-GONIA (1-800-463-6464)</p> */}
                                     <p><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM EST</p>
-                                    <p><strong>Address:</strong> InfoGonia Customer Service, 123 Tech Street, Digital City, DC 12345</p>
+                                    <p><strong>Address:</strong> NowStart Solution Customer Service, IDENTY, 164, 1st, RMV Stage 2, Sanjaynagar, Bengaluru, Urban, Karnataka, 560094</p>
                                 </div>
                             </div>
                         </section>
@@ -332,7 +332,7 @@ export default function RefundPolicy() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                                     </svg>
                                 </div>
-                                <div className="text-2xl font-bold">InfoGonia</div>
+                                <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
                             <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
                         </div>
@@ -354,7 +354,7 @@ export default function RefundPolicy() {
                         </div>
                     </div>
                     <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                        <p>&copy; 2024 InfoGonia. All rights reserved.</p>
+                        <p>&copy; 2024 NowStart Solution. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

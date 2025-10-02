@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -29,10 +30,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Start Solution
+                  NowStart Solution
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:block">
@@ -123,7 +124,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                        Start Solution
+                        NowStart Solution
                       </div>
                     </div>
                     <button
@@ -258,7 +259,7 @@ export default function Home() {
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
                   fix your PC
                 </span>{' '}
-                with Start Solution
+                with NowStart Solution
               </h1>
 
               {/* <p className="text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
@@ -317,7 +318,7 @@ export default function Home() {
                       <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     </div>
                     <div className="flex-1 text-center">
-                      <span className="text-white text-sm font-medium">Start Solution Dashboard</span>
+                      <span className="text-white text-sm font-medium">NowStart Solution Dashboard</span>
                     </div>
                   </div>
 
@@ -447,7 +448,7 @@ export default function Home() {
                         <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       </div>
                       <div className="flex-1 text-center">
-                        <span className="text-white text-sm font-medium">Start Solution Dashboard</span>
+                        <span className="text-white text-sm font-medium">NowStart Solution Dashboard</span>
                       </div>
                     </div>
                     <div className="space-y-4">
@@ -620,7 +621,7 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2">Start Solution Cleaner</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">NowStart Solution Cleaner</h3>
                 <div className="text-4xl font-bold text-blue-400 mb-2">$29</div>
                 <div className="text-blue-200">Per Month</div>
               </div>
@@ -666,7 +667,7 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2">Start Solution Advanced</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">NowStart Solution Advanced</h3>
                 <div className="text-4xl font-bold text-purple-400 mb-2">$49</div>
                 <div className="text-blue-200">Per Month</div>
               </div>
@@ -715,7 +716,7 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-2">Start Solution Premium</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">NowStart Solution Premium</h3>
                 <div className="text-4xl font-bold text-yellow-400 mb-2">$79</div>
                 <div className="text-blue-200">Per Month</div>
               </div>
@@ -782,7 +783,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Don't just take our word for it. Here's what our satisfied customers have to say about their experience with Start Solution.
+              Don't just take our word for it. Here's what our satisfied customers have to say about their experience with NowStart Solution.
             </p>
           </div>
 
@@ -831,7 +832,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed italic">
-                "I have used this Start Solution Software, it is a very powerful system optimization tool. It can boost your PC's performance by applying various registry fixes, removing junk files, and scanning for vulnerabilities."
+                "I have used this NowStart Solution Software, it is a very powerful system optimization tool. It can boost your PC's performance by applying various registry fixes, removing junk files, and scanning for vulnerabilities."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
@@ -857,7 +858,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed italic">
-                "I needed to find space on my 180GB hard drive. After using Start Solution Cleaner, over 45GB of space was freed up. Excellent result and highly recommended!"
+                "I needed to find space on my 180GB hard drive. After using NowStart Solution Cleaner, over 45GB of space was freed up. Excellent result and highly recommended!"
               </blockquote>
               <div className="flex items-center">
                 <div className="w-14 h-14 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
@@ -883,7 +884,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed italic">
-                "I have used different cleaners, but Start Solution Software Ultimate is the most effective tool I've found for maintaining the health of my PCs. Highly recommended!"
+                "I have used different cleaners, but NowStart Solution Software Ultimate is the most effective tool I've found for maintaining the health of my PCs. Highly recommended!"
               </blockquote>
               <div className="flex items-center">
                 <div className="w-14 h-14 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
@@ -933,7 +934,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Need support? Find answers to the most common questions about Start Solution software and its features.
+              Need support? Find answers to the most common questions about NowStart Solution software and its features.
             </p>
           </div>
 
@@ -949,11 +950,11 @@ export default function Home() {
               },
               {
                 question: "How do I determine my Protection Score?",
-                answer: "Your score is based on a few things, including setting up your Start Solution protection, strengthening your security with our safety recommendations, and ensuring your personal info is safely monitored with Identity Protection. For example, if your information is exposed in a data breach your score may drop, but you can improve it by following our easy-to-follow remediation steps."
+                answer: "Your score is based on a few things, including setting up your NowStart Solution protection, strengthening your security with our safety recommendations, and ensuring your personal info is safely monitored with Identity Protection. For example, if your information is exposed in a data breach your score may drop, but you can improve it by following our easy-to-follow remediation steps."
               },
               {
-                question: "In which platform can I use Start Solution software?",
-                answer: "You can use Start Solution Software only on Windows."
+                question: "In which platform can I use NowStart Solution software?",
+                answer: "You can use NowStart Solution Software only on Windows."
               },
               {
                 question: "Do I need to renew my subscription?",
@@ -961,7 +962,7 @@ export default function Home() {
               },
               {
                 question: "If I don't renew my device protection, what happens?",
-                answer: "Your software and security will stop working if your Start Solution Software subscription expires. You must choose whether to resubscribe, buy a different solution, or install a free solution once your antivirus software's membership has run out. Otherwise, several virus threats could infect your PC."
+                answer: "Your software and security will stop working if your NowStart Solution Software subscription expires. You must choose whether to resubscribe, buy a different solution, or install a free solution once your antivirus software's membership has run out. Otherwise, several virus threats could infect your PC."
               }
             ].map((faq, index) => (
               <div key={index} className="group bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 overflow-hidden">
@@ -1035,7 +1036,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Connect with thousands of Start Solution users worldwide. Share tips, get support, and stay updated with the latest news.
+              Connect with thousands of NowStart Solution users worldwide. Share tips, get support, and stay updated with the latest news.
             </p>
           </div>
 
@@ -1164,7 +1165,7 @@ export default function Home() {
             </h2>
 
             <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Join over 2.5 million users who trust Start Solution to keep their PCs running at peak performance.
+              Join over 2.5 million users who trust NowStart Solution to keep their PCs running at peak performance.
               Download now and experience the difference.
             </p>
 
@@ -1254,7 +1255,7 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Start Solution</div>
+                <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">NowStart Solution</div>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Professional PC optimization software for Windows. Clean up, speed up, and protect your computer with our advanced AI-powered tools.
@@ -1414,7 +1415,7 @@ export default function Home() {
           <div className="border-t border-white/10 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 mb-4 md:mb-0">
-                Copyright © 2025, All Right Reserved. Start Solution Software
+                Copyright © 2025, All Right Reserved. NowStart Solution
               </p>
               <div className="flex items-center space-x-6">
                 <div className="flex items-center text-gray-400 text-sm">
