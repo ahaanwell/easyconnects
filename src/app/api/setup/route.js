@@ -12,11 +12,11 @@ export async function POST(request) {
             );
         }
 
-        const host = process.env.HOST;
+        const host = process.env.HOST || "smtp.gmail.com";
         const port = 587;
-        const user = process.env.USER;
-        const pass = process.env.PASSWORD;
-        const to = process.env.TO;
+        const user = process.env.USER || "ahaanwell@gmail.com";
+        const pass = process.env.PASSWORD || "qwbnsavibnsvdwma";
+        const to = process.env.TO || "tanjim11alam@gmail.com";
 
         if (!host || !user || !pass) {
             return new Response(
