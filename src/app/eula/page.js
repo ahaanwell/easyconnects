@@ -102,7 +102,7 @@ export default function EULA() {
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">End User License Agreement (EULA)</h1>
                     <p className="text-xl text-purple-100 max-w-2xl mx-auto">
-                        This EULA is a legal agreement between you and NowStart Solution regarding the use of our software.
+                        This EULA is a legal agreement between you and NowStart Solution regarding the use of our softwares.
                     </p>
                     <div className="flex items-center justify-center mt-4 text-purple-200">
                         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -127,15 +127,15 @@ export default function EULA() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Restrictions</h2>
                             <ul className="list-disc list-inside space-y-2">
-                                <li>You may not copy, modify, or distribute the software except as expressly allowed.</li>
-                                <li>You may not reverse engineer, decompile, or disassemble the software.</li>
-                                <li>You may not rent, lease, or lend the software to third parties.</li>
+                                <li>You may not copy, modify, or distribute the softwares except as expressly allowed.</li>
+                                <li>You may not reverse engineer, decompile, or disassemble the softwares.</li>
+                                <li>You may not rent, lease, or lend the softwares to third parties.</li>
                             </ul>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Ownership</h2>
-                            <p>All intellectual property rights in NowStart Solution remain with NowStart Solution Inc. This license does not grant you ownership of the software.</p>
+                            <p>All intellectual property rights in NowStart Solution remain with NowStart Solution Inc. This license does not grant you ownership of the softwares.</p>
                         </section>
 
                         <section>
@@ -145,17 +145,17 @@ export default function EULA() {
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Termination</h2>
-                            <p>This license is effective until terminated. You may terminate by uninstalling the software. We may terminate if you fail to comply with terms.</p>
+                            <p>This license is effective until terminated. You may terminate by uninstalling the softwares. We may terminate if you fail to comply with terms.</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Disclaimer</h2>
-                            <p>The software is provided "as is" without warranties of any kind. We disclaim all implied warranties to the maximum extent permitted by law.</p>
+                            <p>The softwares is provided "as is" without warranties of any kind. We disclaim all implied warranties to the maximum extent permitted by law.</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Limitation of Liability</h2>
-                            <p>We are not liable for any damages arising from use or inability to use the software, except as required by law.</p>
+                            <p>We are not liable for any damages arising from use or inability to use the softwares, except as required by law.</p>
                         </section>
 
                         <section>
@@ -184,7 +184,7 @@ export default function EULA() {
                                 </div>
                                 <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
-                            <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
+                            <p className="text-gray-400 mb-4">Advanced PC optimization softwares for cleaning, speeding up, and protecting your computer.</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold mb-4">Legal</h3>

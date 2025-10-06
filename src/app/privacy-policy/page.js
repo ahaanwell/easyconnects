@@ -183,7 +183,7 @@ export default function PrivacyPolicy() {
                                     </div>
                                     <div className="space-y-6 text-gray-700">
                                         <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
-                                            <p className="text-lg leading-relaxed">NowStart Solution ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our PC optimization software.</p>
+                                            <p className="text-lg leading-relaxed">NowStart Solution ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our PC optimization softwares.</p>
                                         </div>
 
                                         <div className="grid md:grid-cols-2 gap-6">
@@ -228,7 +228,7 @@ export default function PrivacyPolicy() {
                                                     </li>
                                                     <li className="flex items-start">
                                                         <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                                        <span>Software usage patterns and preferences</span>
+                                                        <span>Softwares usage patterns and preferences</span>
                                                     </li>
                                                     <li className="flex items-start">
                                                         <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -260,9 +260,9 @@ export default function PrivacyPolicy() {
 
                                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                                             {[
-                                                { icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", text: "Provide and maintain our software services", color: "blue" },
+                                                { icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", text: "Provide and maintain our softwares services", color: "blue" },
                                                 { icon: "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z", text: "Process payments and manage subscriptions", color: "green" },
-                                                { icon: "M13 10V3L4 14h7v7l9-11h-7z", text: "Improve software performance and user experience", color: "purple" },
+                                                { icon: "M13 10V3L4 14h7v7l9-11h-7z", text: "Improve softwares performance and user experience", color: "purple" },
                                                 { icon: "M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5z", text: "Provide customer support and technical assistance", color: "indigo" },
                                                 { icon: "M15 17h5l-5 5v-5zM4.5 19.5L15 9l-4.5-4.5L4.5 19.5z", text: "Send important updates and security notifications", color: "red" },
                                                 { icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", text: "Comply with legal obligations", color: "yellow" }
@@ -348,7 +348,7 @@ export default function PrivacyPolicy() {
                                     <div className="space-y-4 text-gray-700">
                                         <p>We use cookies and similar technologies to enhance your experience:</p>
                                         <ul className="list-disc list-inside space-y-2 ml-4">
-                                            <li>Essential cookies for software functionality</li>
+                                            <li>Essential cookies for softwares functionality</li>
                                             <li>Analytics cookies to understand usage patterns</li>
                                             <li>Preference cookies to remember your settings</li>
                                         </ul>
@@ -373,7 +373,7 @@ export default function PrivacyPolicy() {
                                 <section>
                                     <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Children's Privacy</h2>
                                     <div className="space-y-4 text-gray-700">
-                                        <p>Our software is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+                                        <p>Our softwares is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
                                     </div>
                                 </section>
 
@@ -445,7 +445,7 @@ export default function PrivacyPolicy() {
                                 </div>
                                 <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
-                            <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
+                            <p className="text-gray-400 mb-4">Advanced PC optimization softwares for cleaning, speeding up, and protecting your computer.</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold mb-4">Legal</h3>

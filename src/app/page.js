@@ -508,8 +508,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">Smart Software Updates</h3>
-              <p className="text-gray-600 leading-relaxed">Automatically update all your software to the latest versions with intelligent scheduling and rollback protection.</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">Smart Softwares Updates</h3>
+              <p className="text-gray-600 leading-relaxed">Automatically update all your softwares to the latest versions with intelligent scheduling and rollback protection.</p>
               <div className="mt-4 flex items-center text-blue-600 text-sm font-medium">
                 <span>Learn more</span>
                 <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -849,7 +849,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed italic">
-                "I have used this NowStart Solution Software, it is a very powerful system optimization tool. It can boost your PC's performance by applying various registry fixes, removing junk files, and scanning for vulnerabilities."
+                "I have used this NowStart Solution Softwares, it is a very powerful system optimization tool. It can boost your PC's performance by applying various registry fixes, removing junk files, and scanning for vulnerabilities."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
@@ -901,7 +901,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed italic">
-                "I have used different cleaners, but NowStart Solution Software Ultimate is the most effective tool I've found for maintaining the health of my PCs. Highly recommended!"
+                "I have used different cleaners, but NowStart Solution Softwares Ultimate is the most effective tool I've found for maintaining the health of my PCs. Highly recommended!"
               </blockquote>
               <div className="flex items-center">
                 <div className="w-14 h-14 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
@@ -951,7 +951,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Need support? Find answers to the most common questions about NowStart Solution software and its features.
+              Need support? Find answers to the most common questions about NowStart Solution softwares and its features.
             </p>
           </div>
 
@@ -970,8 +970,8 @@ export default function Home() {
                 answer: "Your score is based on a few things, including setting up your NowStart Solution protection, strengthening your security with our safety recommendations, and ensuring your personal info is safely monitored with Identity Protection. For example, if your information is exposed in a data breach your score may drop, but you can improve it by following our easy-to-follow remediation steps."
               },
               {
-                question: "In which platform can I use NowStart Solution software?",
-                answer: "You can use NowStart Solution Software only on Windows."
+                question: "In which platform can I use NowStart Solution softwares?",
+                answer: "You can use NowStart Solution Softwares only on Windows."
               },
               {
                 question: "Do I need to renew my subscription?",
@@ -979,7 +979,7 @@ export default function Home() {
               },
               {
                 question: "If I don't renew my device protection, what happens?",
-                answer: "Your software and security will stop working if your NowStart Solution Software subscription expires. You must choose whether to resubscribe, buy a different solution, or install a free solution once your antivirus software's membership has run out. Otherwise, several virus threats could infect your PC."
+                answer: "Your softwares and security will stop working if your NowStart Solution Softwares subscription expires. You must choose whether to resubscribe, buy a different solution, or install a free solution once your antivirus software's membership has run out. Otherwise, several virus threats could infect your PC."
               }
             ].map((faq, index) => (
               <div key={index} className="group bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 overflow-hidden">
@@ -1277,7 +1277,7 @@ export default function Home() {
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">NowStart Solution</div>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Professional PC optimization software for Windows. Clean up, speed up, and protect your computer with our advanced AI-powered tools.
+                Professional PC optimization softwares for Windows. Clean up, speed up, and protect your computer with our advanced AI-powered tools.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">

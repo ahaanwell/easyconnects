@@ -143,7 +143,7 @@ export default function TermsConditions() {
                             </div>
                             <div className="space-y-6 text-gray-700">
                                 <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border border-purple-100">
-                                    <p className="text-lg leading-relaxed">Welcome to NowStart Solution. These Terms and Conditions ("Terms") govern your use of our PC optimization software and services. By downloading, installing, or using NowStart Solution, you agree to be bound by these Terms.</p>
+                                    <p className="text-lg leading-relaxed">Welcome to NowStart Solution. These Terms and Conditions ("Terms") govern your use of our PC optimization softwares and services. By downloading, installing, or using NowStart Solution, you agree to be bound by these Terms.</p>
                                 </div>
 
                                 <div className="bg-gradient-to-r from-blue-100 to-indigo-100 rounded-xl p-8 border border-blue-200">
@@ -155,7 +155,7 @@ export default function TermsConditions() {
                                         </div>
                                         <h3 className="text-xl font-semibold text-blue-800">Important Notice</h3>
                                     </div>
-                                    <p className="text-blue-700 text-lg">If you do not agree to these Terms, please do not use our software. Your continued use of NowStart Solution constitutes acceptance of any updates to these Terms.</p>
+                                    <p className="text-blue-700 text-lg">If you do not agree to these Terms, please do not use our softwares. Your continued use of NowStart Solution constitutes acceptance of any updates to these Terms.</p>
                                 </div>
                             </div>
                         </section>
@@ -163,7 +163,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Service</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>NowStart Solution is a comprehensive PC optimization software that provides:</p>
+                                <p>NowStart Solution is a comprehensive PC optimization softwares that provides:</p>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>System cleaning and maintenance tools</li>
                                     <li>Performance optimization features</li>
@@ -178,21 +178,21 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">3. License and Usage Rights</h2>
                             <div className="space-y-4 text-gray-700">
-                                <h3 className="text-xl font-semibold text-gray-900">Software License</h3>
-                                <p>NowStart Solution grants you a limited, non-exclusive, non-transferable license to use the software on a single computer for personal or commercial use.</p>
+                                <h3 className="text-xl font-semibold text-gray-900">Softwares License</h3>
+                                <p>NowStart Solution grants you a limited, non-exclusive, non-transferable license to use the softwarse on a single computer for personal or commercial use.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Permitted Uses</h3>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
-                                    <li>Install and use the software on one computer per license</li>
+                                    <li>Install and use the softwares on one computer per license</li>
                                     <li>Create backup copies for personal use</li>
-                                    <li>Use the software for its intended optimization purposes</li>
+                                    <li>Use the softwares for its intended optimization purposes</li>
                                 </ul>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Prohibited Uses</h3>
                                 <ul className="list-disc list-inside space-y-2 ml-4">
-                                    <li>Reverse engineer, decompile, or disassemble the software</li>
-                                    <li>Distribute, sell, or sublicense the software</li>
-                                    <li>Use the software for illegal or unauthorized purposes</li>
+                                    <li>Reverse engineer, decompile, or disassemble the softwares</li>
+                                    <li>Distribute, sell, or sublicense the softwares</li>
+                                    <li>Use the softwares for illegal or unauthorized purposes</li>
                                     <li>Remove or modify copyright notices or proprietary labels</li>
                                 </ul>
                             </div>
@@ -205,7 +205,7 @@ export default function TermsConditions() {
                                 <ul className="list-disc list-inside space-y-2 ml-4">
                                     <li>Provide accurate and complete registration information</li>
                                     <li>Maintain the confidentiality of your account credentials</li>
-                                    <li>Use the software in compliance with all applicable laws</li>
+                                    <li>Use the softwares in compliance with all applicable laws</li>
                                     <li>Not interfere with or disrupt the software's operation</li>
                                     <li>Report any security vulnerabilities or bugs to our support team</li>
                                     <li>Backup important data before using optimization features</li>
@@ -236,7 +236,7 @@ export default function TermsConditions() {
 
                                 <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                                     <h3 className="text-lg font-semibold text-green-800 mb-2">Data Security</h3>
-                                    <p className="text-green-700">We implement industry-standard security measures to protect your data. However, no system is 100% secure, and you use our software at your own risk.</p>
+                                    <p className="text-green-700">We implement industry-standard security measures to protect your data. However, no system is 100% secure, and you use our softwares at your own risk.</p>
                                 </div>
                             </div>
                         </section>
@@ -247,15 +247,15 @@ export default function TermsConditions() {
                                 <p>NowStart Solution and all related trademarks, copyrights, and intellectual property are owned by Start Solution Inc. You may not use our intellectual property without written permission.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900">User Content</h3>
-                                <p>You retain ownership of any content you create or upload. By using our software, you grant us a limited license to use such content for service provision and improvement.</p>
+                                <p>You retain ownership of any content you create or upload. By using our softwares, you grant us a limited license to use such content for service provision and improvement.</p>
                             </div>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Disclaimers and Limitations</h2>
                             <div className="space-y-4 text-gray-700">
-                                <h3 className="text-xl font-semibold text-gray-900">Software Disclaimer</h3>
-                                <p>Start Solution is provided "as is" without warranties of any kind. We do not guarantee that the software will be error-free or that it will meet your specific requirements.</p>
+                                <h3 className="text-xl font-semibold text-gray-900">Softwares Disclaimer</h3>
+                                <p>Start Solution is provided "as is" without warranties of any kind. We do not guarantee that the softwares will be error-free or that it will meet your specific requirements.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Limitation of Liability</h3>
                                 <p>To the maximum extent permitted by law, NowStart Solution shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the software.</p>
@@ -271,7 +271,7 @@ export default function TermsConditions() {
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Termination</h2>
                             <div className="space-y-4 text-gray-700">
                                 <h3 className="text-xl font-semibold text-gray-900">Termination by You</h3>
-                                <p>You may terminate your use of NowStart Solution at any time by uninstalling the software and cancelling any active subscriptions.</p>
+                                <p>You may terminate your use of NowStart Solution at any time by uninstalling the softwares and cancelling any active subscriptions.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900 mt-6">Termination by Us</h3>
                                 <p>We may terminate or suspend your access to NowStart Solution immediately, without prior notice, for any violation of these Terms or for any other reason at our sole discretion.</p>
@@ -281,7 +281,7 @@ export default function TermsConditions() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Updates and Modifications</h2>
                             <div className="space-y-4 text-gray-700">
-                                <p>We may update NowStart Solution and these Terms from time to time. Updates to the software may be automatic, while changes to these Terms will be posted on our website.</p>
+                                <p>We may update NowStart Solution and these Terms from time to time. Updates to the softwares may be automatic, while changes to these Terms will be posted on our website.</p>
 
                                 <h3 className="text-xl font-semibold text-gray-900">Acceptance of Updates</h3>
                                 <p>Continued use of NowStart Solution after updates constitutes acceptance of the new terms. If you do not agree to updated terms, you must stop using the software.</p>
@@ -321,7 +321,7 @@ export default function TermsConditions() {
                                     <li>Email support: support@nowstart.co</li>
                                     <li>Online knowledge base and documentation</li>
                                     <li>Community forums and user guides</li>
-                                    <li>Regular software updates and security patches</li>
+                                    <li>Regular softwares updates and security patches</li>
                                 </ul>
                             </div>
                         </section>
@@ -361,7 +361,7 @@ export default function TermsConditions() {
                                 </div>
                                 <div className="text-2xl font-bold">NowStart Solution</div>
                             </div>
-                            <p className="text-gray-400 mb-4">Advanced PC optimization software for cleaning, speeding up, and protecting your computer.</p>
+                            <p className="text-gray-400 mb-4">Advanced PC optimization softwares for cleaning, speeding up, and protecting your computer.</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold mb-4">Legal</h3>
