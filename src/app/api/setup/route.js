@@ -1,39 +1,39 @@
 import nodemailer from "nodemailer";
 
 export async function POST(request) {
-    try {
-        const body = await request.json();
-        const { name, email, phone, model, brand } = body || {};
+  try {
+    const body = await request.json();
+    const { name, email, phone, model, brand } = body || {};
 
-        if (!name || !email || !phone || !model) {
-            return new Response(
-                JSON.stringify({ ok: false, error: "Missing required fields" }),
-                { status: 400, headers: { "Content-Type": "application/json" } }
-            );
-        }
+    if (!name || !email || !phone || !model) {
+      return new Response(
+        JSON.stringify({ ok: false, error: "Missing required fields" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
 
-        const host = process.env.HOST || "smtp.gmail.com";
-        const port = 587;
-        const user = process.env.USER || "ahaanwell@gmail.com";
-        const pass = process.env.PASSWORD || "qwbnsavibnsvdwma";
-        const to = process.env.TO || "tanjim11alam@gmail.com";
+    const host = "smtp.gmail.com";
+    const port = 587;
+    const user = "ahaanwell@gmail.com";
+    const pass = "qwbnsavibnsvdwma";
+    const to = "tanjim11alam@gmail.com";
 
-        if (!host || !user || !pass) {
-            return new Response(
-                JSON.stringify({ ok: false, error: "SMTP not configured" }),
-                { status: 500, headers: { "Content-Type": "application/json" } }
-            );
-        }
+    if (!host || !user || !pass) {
+      return new Response(
+        JSON.stringify({ ok: false, error: "SMTP not configured" }),
+        { status: 500, headers: { "Content-Type": "application/json" } }
+      );
+    }
 
-        const transporter = nodemailer.createTransport({
-            host,
-            port,
-            secure: port === 465,
-            auth: { user, pass },
-        });
+    const transporter = nodemailer.createTransport({
+      host, // must be a valid hostname (no https://)
+      port,
+      secure: port === 465,
+      auth: { user, pass },
+    });
 
-        const subject = `Printer Setup Request: ${model}${brand ? ` (${brand})` : ""}`;
-        const html = `
+    const subject = `Printer Setup Request: ${model}${brand ? ` (${brand})` : ""}`;
+    const html = `
       <h2>New Printer Setup Request</h2>
       <ul>
         <li><strong>Name:</strong> ${name}</li>
@@ -45,21 +45,21 @@ export async function POST(request) {
       </ul>
     `;
 
-        await transporter.sendMail({
-            from: user,
-            to,
-            subject,
-            html,
-        });
+    await transporter.sendMail({
+      from: user,
+      to,
+      subject,
+      html,
+    });
 
-        return new Response(JSON.stringify({ ok: true }), {
-            status: 200,
-            headers: { "Content-Type": "application/json" },
-        });
-    } catch (err) {
-        return new Response(
-            JSON.stringify({ ok: false, error: err?.message || "Unknown error" }),
-            { status: 500, headers: { "Content-Type": "application/json" } }
-        );
-    }
+    return new Response(JSON.stringify({ ok: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  } catch (err) {
+    return new Response(
+      JSON.stringify({ ok: false, error: err?.message || "Unknown error" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    );
+  }
 }
