@@ -82,14 +82,14 @@ export default function Home() {
             {/* Right Side Actions */}
             <div className="flex items-center space-x-2 md:space-x-4">
               {/* Search Button */}
-              <button className="hidden md:flex items-center justify-center w-10 h-10 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300">
+              <button className="hidden md:flex items-center cursor-pointer justify-center w-10 h-10 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </button>
 
               {/* Download Button - Hidden on mobile, shown in mobile menu */}
-              <button className="hidden md:block group relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-xl text-sm font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+              <button className="hidden md:block group relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-xl text-sm font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 cursor-pointer">
                 <span className="relative z-10 flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -102,7 +102,7 @@ export default function Home() {
               {/* Mobile Menu Button */}
               <button
                 onClick={toggleMobileMenu}
-                className="lg:hidden flex items-center justify-center w-10 h-10 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                className="lg:hidden flex items-center justify-center cursor-pointer w-10 h-10 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
               >
                 {isMobileMenuOpen ? (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                     <button
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="w-10 h-10 flex items-center justify-center text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                      className="w-10 h-10 flex items-center cursor-pointer justify-center text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
                     >
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -217,7 +217,7 @@ export default function Home() {
 
                   {/* Download Button */}
                   <div className="p-6 border-t border-gray-200 bg-white">
-                    <button className="w-full group relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                    <button className="w-full group relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 cursor-pointer">
                       <span className="relative z-10 flex items-center justify-center">
                         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -283,7 +283,7 @@ export default function Home() {
               </p> */}
 
               <div className="flex flex-col sm:flex-row gap-6 items-center mb-8">
-                <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-1">
+                <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-1 cursor-pointer">
                   <span className="relative z-10 flex items-center">
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -293,7 +293,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
                 </button>
 
-                <button className="px-8 py-4 border-2 border-white/30 text-white rounded-xl text-lg font-semibold hover:bg-white/10 transition-all duration-300 backdrop-blur-md">
+                <button className="px-8 py-4 border-2 border-white/30 text-white rounded-xl text-lg font-semibold hover:bg-white/10 transition-all duration-300 backdrop-blur-md cursor-pointer">
                   Watch Demo
                 </button>
               </div>
@@ -364,10 +364,10 @@ export default function Home() {
                     <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg p-4 border border-blue-400/30">
                       <div className="text-white text-sm font-semibold mb-2">Quick Actions</div>
                       <div className="flex space-x-2">
-                        <button className="flex-1 bg-blue-600 text-white text-xs py-2 px-3 rounded hover:bg-blue-700 transition-colors">
+                        <button className="flex-1 bg-blue-600 text-white text-xs py-2 px-3 rounded hover:bg-blue-700 transition-colors cursor-pointer">
                           Clean Now
                         </button>
-                        <button className="flex-1 bg-purple-600 text-white text-xs py-2 px-3 rounded hover:bg-purple-700 transition-colors">
+                        <button className="flex-1 bg-purple-600 text-white text-xs py-2 px-3 rounded hover:bg-purple-700 transition-colors cursor-pointer">
                           Optimize
                         </button>
                       </div>
@@ -668,7 +668,7 @@ export default function Home() {
                   Driver Updater
                 </li>
               </ul>
-              <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold">
+              <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold cursor-pointer">
                 Download Now
               </button>
             </div>
@@ -720,7 +720,7 @@ export default function Home() {
                   Keeps your browsing history private
                 </li>
               </ul>
-              <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-xl hover:from-purple-700 hover:to-pink-700 transition-all duration-300 font-semibold shadow-lg">
+              <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-xl hover:from-purple-700 hover:to-pink-700 transition-all duration-300 font-semibold shadow-lg cursor-pointer">
                 Download Now
               </button>
             </div>
@@ -769,7 +769,7 @@ export default function Home() {
                   Smart Cleansing
                 </li>
               </ul>
-              <button className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 text-white py-3 rounded-xl hover:from-yellow-700 hover:to-orange-700 transition-all duration-300 font-semibold">
+              <button className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 text-white py-3 rounded-xl hover:from-yellow-700 hover:to-orange-700 transition-all duration-300 font-semibold cursor-pointer">
                 Download Now
               </button>
             </div>
@@ -984,7 +984,7 @@ export default function Home() {
             ].map((faq, index) => (
               <div key={index} className="group bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 overflow-hidden">
                 <button
-                  className="w-full px-8 py-3 text-left flex justify-between items-center hover:bg-white/5 transition-colors"
+                  className="w-full px-8 py-3 text-left flex justify-between items-center hover:bg-white/5 transition-colors cursor-pointer"
                   onClick={() => toggleFaq(index)}
                 >
                   <span className="font-semibold text-white text-lg pr-4">{faq.question}</span>
@@ -1018,10 +1018,10 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-4">Still Need Help?</h3>
               <p className="text-blue-100 mb-6">Can't find the answer you're looking for? Our support team is here to help.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
+                <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 cursor-pointer">
                   Contact Support
                 </button>
-                <button className="px-8 py-3 border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
+                <button className="px-8 py-3 border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 cursor-pointer">
                   View Documentation
                 </button>
               </div>
@@ -1071,7 +1071,7 @@ export default function Home() {
                 <div className="flex items-center justify-center text-blue-600 text-sm font-medium mb-4">
                   <span>125K+ Followers</span>
                 </div>
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300">
+                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 cursor-pointer">
                   Join Community
                 </button>
               </div>
@@ -1090,7 +1090,7 @@ export default function Home() {
                 <div className="flex items-center justify-center text-sky-600 text-sm font-medium mb-4">
                   <span>85K+ Followers</span>
                 </div>
-                <button className="w-full bg-gradient-to-r from-sky-600 to-sky-700 text-white py-3 rounded-xl font-semibold hover:from-sky-700 hover:to-sky-800 transition-all duration-300">
+                <button className="w-full bg-gradient-to-r from-sky-600 to-sky-700 text-white py-3 rounded-xl font-semibold hover:from-sky-700 hover:to-sky-800 transition-all duration-300 cursor-pointer">
                   Follow Us
                 </button>
               </div>
@@ -1109,7 +1109,7 @@ export default function Home() {
                 <div className="flex items-center justify-center text-pink-600 text-sm font-medium mb-4">
                   <span>45K+ Followers</span>
                 </div>
-                <button className="w-full bg-gradient-to-r from-pink-600 to-pink-700 text-white py-3 rounded-xl font-semibold hover:from-pink-700 hover:to-pink-800 transition-all duration-300">
+                <button className="w-full bg-gradient-to-r from-pink-600 to-pink-700 text-white py-3 rounded-xl font-semibold hover:from-pink-700 hover:to-pink-800 transition-all duration-300 cursor-pointer">
                   Follow Us
                 </button>
               </div>
@@ -1187,7 +1187,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-8">
-              <button className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl text-xl font-bold hover:from-blue-700 hover:via-purple-700 hover:to-pink-700 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-2">
+              <button className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl text-xl font-bold hover:from-blue-700 hover:via-purple-700 hover:to-pink-700 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-2 cursor-pointer">
                 <span className="relative z-10 flex items-center">
                   <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -1197,7 +1197,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl blur opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
               </button>
 
-              <button className="px-10 py-5 border-2 border-white/30 text-white rounded-2xl text-xl font-semibold hover:bg-white/10 transition-all duration-300 backdrop-blur-md hover:border-white/50">
+              <button className="px-10 py-5 border-2 border-white/30 text-white rounded-2xl text-xl font-semibold hover:bg-white/10 transition-all duration-300 backdrop-blur-md hover:border-white/50 cursor-pointer">
                 Watch Demo
               </button>
             </div>
@@ -1423,7 +1423,7 @@ export default function Home() {
                   placeholder="Enter your email"
                   className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors"
                 />
-                <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
+                <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 cursor-pointer">
                   Subscribe
                 </button>
               </div>

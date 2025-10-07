@@ -101,6 +101,11 @@ export default function SetupPage() {
         setIsSetupOpen(false);
     }
 
+    function openChatAndcloseSetupModal(){
+        closeSetupModal();
+        openChat();
+    }
+
     function updateField(name, value) {
         setForm(prev => ({ ...prev, [name]: value }));
         if (errors[name]) {
@@ -205,6 +210,13 @@ export default function SetupPage() {
         startInstallation();
     }
 
+    const openChat = () => {
+    if (typeof window !== "undefined" && window.Tawk_API) {
+      window.Tawk_API.maximize();
+    }
+  };
+
+
     return (
         <div className="font-inter bg-gradient-to-br from-gray-50 to-blue-50">
             <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-white/20 shadow-lg">
@@ -220,6 +232,8 @@ export default function SetupPage() {
                                 style={{ backgroundColor: "#007dbd" }}
                                 onMouseOver={e => (e.currentTarget.style.backgroundColor = "#005a8b")}
                                 onMouseOut={e => (e.currentTarget.style.backgroundColor = "#007dbd")}
+                                onClick={openChat}
+                                
                             >
                                 <FaComments className="inline-block mr-2" />Chat Now
                             </button>
@@ -481,7 +495,7 @@ export default function SetupPage() {
                                                 <p className="text-gray-600 text-xs sm:text-sm">Professional printer installation service</p>
                                             </div>
                                         </div>
-                                        <button onClick={closeSetupModal} className="w-6 h-6 sm:w-8 sm:h-8 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center cursor-pointer transition-all duration-300">
+                                        <button onClick={closeSetupModal} className="w-6 h-6 sm:w-8 sm:h-8 text-black bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center cursor-pointer transition-all duration-300">
                                             <RxCross2 />
                                         </button>
                                     </div>
@@ -496,7 +510,7 @@ export default function SetupPage() {
                                                     id="setupName"
                                                     name="name"
                                                     placeholder="Enter your full name"
-                                                    className={`w-full px-2 sm:px-3 py-2 border outline-0 rounded-lg focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.name ? "border-red-500" : "border-gray-300"}`}
+                                                    className={`w-full px-2 sm:px-3 py-2 border outline-0 text-gray-700 rounded-lg focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.name ? "border-red-500" : "border-gray-300"}`}
                                                     value={form.name}
                                                     onChange={e => updateField("name", e.target.value)}
                                                 />
@@ -511,7 +525,7 @@ export default function SetupPage() {
                                                     name="email"
                                                     type="email"
                                                     placeholder="your.email@example.com"
-                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg outline-0 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.email ? "border-red-500" : "border-gray-300"}`}
+                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg text-gray-700 outline-0 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.email ? "border-red-500" : "border-gray-300"}`}
                                                     value={form.email}
                                                     onChange={e => updateField("email", e.target.value)}
                                                 />
@@ -528,7 +542,7 @@ export default function SetupPage() {
                                                     id="setupPhone"
                                                     name="phone"
                                                     placeholder="+1 (555) 123-4567"
-                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg outline-0 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.phone ? "border-red-500" : "border-gray-300"}`}
+                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg text-gray-700 outline-0 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.phone ? "border-red-500" : "border-gray-300"}`}
                                                     value={form.phone}
                                                     onChange={e => updateField("phone", e.target.value)}
                                                 />
@@ -542,7 +556,7 @@ export default function SetupPage() {
                                                     id="setupModel"
                                                     name="model"
                                                     placeholder="e.g., LaserJet Pro M404n, PIXMA TR4520"
-                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg outline-0 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.model ? "border-red-500" : "border-gray-300"}`}
+                                                    className={`w-full px-2 sm:px-3 py-2 border rounded-lg outline-0 text-gray-700 focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base ${errors.model ? "border-red-500" : "border-gray-300"}`}
                                                     value={form.model}
                                                     onChange={e => updateField("model", e.target.value)}
                                                 />
@@ -557,7 +571,7 @@ export default function SetupPage() {
                                             <select
                                                 id="setupBrand"
                                                 name="brand"
-                                                className="w-full px-2 sm:px-3 py-2 border border-gray-300 outline-0 rounded-lg focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base"
+                                                className="w-full px-2 sm:px-3 md:py-3 py-2 border border-gray-300  text-gray-700 outline-0 rounded-lg focus:border-[#007dbd] transition-all duration-300 bg-white text-sm sm:text-base"
                                                 value={form.brand}
                                                 onChange={e => updateField("brand", e.target.value)}
                                             >
@@ -574,7 +588,7 @@ export default function SetupPage() {
                                             <input
                                                 id="setupAgreement"
                                                 type="checkbox"
-                                                className="w-3 h-3 sm:w-4 sm:h-4 border-gray-300 rounded outline-0 mt-0.5 flex-shrink-0"
+                                                className="w-3 h-3 sm:w-4 sm:h-4 border-gray-300 rounded text-gray-700 outline-0 mt-0.5 flex-shrink-0"
                                                 checked={form.agreement}
                                                 onChange={e => updateField("agreement", e.target.checked)}
                                             />
@@ -678,7 +692,7 @@ export default function SetupPage() {
                                             <button onClick={retryInstallation} className="w-full bg-[#007dbd] cursor-pointer text-white py-2 sm:py-3 rounded-lg font-semibold hover:bg-secondary transition-colors text-sm sm:text-base">
                                                 <FaRedo className="inline-block mr-2 text-xs sm:text-sm" />Retry Installation
                                             </button>
-                                            <button onClick={closeSetupModal} className="w-full bg-green-600 cursor-pointer text-white py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors text-sm sm:text-base">
+                                            <button onClick={openChatAndcloseSetupModal} className="w-full bg-green-600 cursor-pointer text-white py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors text-sm sm:text-base">
                                                 <FaPhone className="inline-block mr-2 text-xs sm:text-sm" />Contact Support
                                             </button>
                                             <button onClick={closeSetupModal} className="w-full bg-gray-500 cursor-pointer text-white py-2 sm:py-3 rounded-lg font-semibold hover:bg-gray-600 transition-colors text-sm sm:text-base">
