@@ -171,7 +171,7 @@ export default function SetupPage() {
                 }
             }, 1000);
         }
-        setTimeout(runNext, 500);
+        setTimeout(runNext, 2000);
     }
 
     async function onSubmit(e) {
@@ -288,26 +288,28 @@ export default function SetupPage() {
                             Expert support for all major printer brands with specialized knowledge and tools
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 px-16 sm:px-0">
                         {[
                             { src: "/hplogo.png", title: "HP Printers" },
                             { src: "/canonlogo.png", title: "Canon Printers" },
                             { src: "/brotherlogo.jpg", title: "Brother Printers" },
                             { src: "/epsonlogo.png", title: "Epson Printers" },
                         ].map(item => (
-                            <div key={item.title} className="brand-card bg-white p-4 sm:p-6 rounded-xl border-2 border-[#007dbd]/20 hover:border-[#007dbd] hover:shadow-xl transition-all cursor-pointer group">
+                            <div 
+                            onClick={openSetupModal}
+                            key={item.title} className="brand-card bg-white p-4 sm:p-6 rounded-xl border-2 border-[#007dbd]/20 hover:border-[#007dbd] hover:shadow-xl transition-all cursor-pointer group">
                                 <div className="text-center">
                                     <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 mx-auto flex items-center justify-center mb-3 sm:mb-4">
                                         <img src={item.src} alt={item.title} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                                     </div>
-                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
-                                    <p className="text-gray-600 text-sm mb-4">Professional support including setup, troubleshooting, and updates.</p>
+                                    {/* <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3> */}
+                                    {/* <p className="text-gray-600 text-sm mb-4">Professional support including setup, troubleshooting, and updates.</p> */}
                                     <button
                                         className="text-white px-4 py-2 cursor-pointer rounded text-sm transition-colors"
                                         style={{ backgroundColor: "#007dbd" }}
                                         onMouseOver={e => (e.currentTarget.style.backgroundColor = "#005a8b")}
                                         onMouseOut={e => (e.currentTarget.style.backgroundColor = "#007dbd")}
-                                        onClick={openSetupModal}
+                                        
                                     >
                                         Setup Now
                                     </button>
@@ -412,10 +414,11 @@ export default function SetupPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                         <div className="sm:col-span-2 lg:col-span-1">
-                            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-                                <FaPrint className="inline-block mr-2" />PrinterHub
-                            </h3>
-                            <p className="text-gray-400 mb-4 text-sm sm:text-base leading-relaxed">Professional printer support services with 24/7 expert assistance for all your printing needs.</p>
+                            {/* <Link href="/setup"
+                        className="flex items-center">
+                            <img src="/hplogo.png" alt="HP Logo" className="h-16 w-auto" />
+                        </Link> */}
+                            <p className="text-gray-400 mb-4 text-sm sm:text-base leading-relaxed">Professional Printer Download Driver & Setup Solutions with 24/7 expert assistance for all your printing needs.</p>
                             <div className="flex space-x-3 sm:space-x-4">
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors text-lg sm:text-xl"><FaFacebookF /></a>
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors text-lg sm:text-xl"><FaTwitter /></a>
