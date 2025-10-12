@@ -1035,9 +1035,9 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-4">Still Need Help?</h3>
               <p className="text-blue-100 mb-6">Can't find the answer you're looking for? Our support team is here to help.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 cursor-pointer">
+                <Link href="#contact" className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 cursor-pointer">
                   Contact Support
-                </button>
+                </Link>
                 <button className="px-8 py-3 border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 cursor-pointer">
                   View Documentation
                 </button>

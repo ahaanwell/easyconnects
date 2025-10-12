@@ -197,7 +197,7 @@ export default function PrivacyPolicy() {
       {/* Main Content */}
       <main className="relative -mt-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200/50 overflow-hidden">
-           <article className="prose prose-slate max-w-none lg:prose-lg xl:prose-xl p-8">
+           <article className="prose prose-slate text-black max-w-none lg:prose-lg xl:prose-xl p-8">
 
           <p className="mb-4 leading-relaxed">
             Developing reliable software starts with prioritizing the end-user experience. For over seven years, NowStart Solution has been focused on delivering complete PC driver solutions. Our mission is to place the user at the center of every interaction, ensuring smooth installation, safe usage, and ongoing support. From helping first-time users download drivers to providing a transparent refund policy and top-notch customer assistance, we aim to keep PCs running efficiently and safely.

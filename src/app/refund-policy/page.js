@@ -136,7 +136,7 @@ export default function RefundPolicy() {
             <main className="relative -mt-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200/50 overflow-hidden">
 
-                    <article className="prose prose-slate max-w-none lg:prose-lg xl:prose-xl p-8">
+                    <article className="prose prose-slate text-black max-w-none lg:prose-lg xl:prose-xl p-8">
           {/* Introduction */}
           <p className="mb-4 leading-relaxed">
             Every customer is valuable to NowStart Solution, and the company strives to ensure that users enjoy its products and services. The functionality of trial versions is limited to help buyers make informed decisions and avoid purchasing incorrect products.

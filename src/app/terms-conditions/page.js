@@ -99,6 +99,7 @@ export default function TermsConditions() {
                                 <a href="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 rounded-md text-base font-medium">Home</a>
                                 <a href="/privacy-policy" className="block px-3 py-2 text-gray-700 hover:text-blue-600 rounded-md text-base font-medium">Privacy Policy</a>
                                 <a href="/refund-policy" className="block px-3 py-2 text-gray-700 hover:text-blue-600 rounded-md text-base font-medium">Refund Policy</a>
+                                <a href="/software-principles" className="block px-3 py-2 text-gray-700 hover:text-blue-600 rounded-md text-base font-medium">Software Principles</a>
                                 <a href="/terms-conditions" className="block px-3 py-2 text-blue-600 bg-blue-50 rounded-md text-base font-medium">Terms & Conditions</a>
                             </div>
                         </div>
@@ -134,7 +135,7 @@ export default function TermsConditions() {
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200/50 overflow-hidden">
 
                     {/* Content */}
-                    <article className="prose prose-slate max-w-none lg:prose-lg xl:prose-xl p-8">
+                    <article className="prose prose-slate max-w-none lg:prose-lg xl:prose-xl p-8 text-black">
 
           <h2 className="text-2xl sm:text-3xl font-semibold mt-8 mb-4">
             NowStart Solution Service Terms and Conditions of Use

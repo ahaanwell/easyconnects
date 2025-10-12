@@ -123,7 +123,7 @@ export default function EULA() {
             {/* Main Content */}
             <main className="relative -mt-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200/50 overflow-hidden">
-                    <article className="prose prose-slate max-w-none lg:prose-lg xl:prose-xl p-8">
+                    <article className="prose prose-slate text-black max-w-none lg:prose-lg xl:prose-xl p-8">
           {/* Main Heading */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">End User License Agreement</h2>
 

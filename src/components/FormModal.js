@@ -24,7 +24,7 @@ export default function FormModal({ isOpen, onClose }) {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 transition-all">
-      <div className="bg-white rounded-2xl shadow-lg w-96 p-6 relative animate-fadeIn">
+      <div className="bg-white rounded-2xl shadow-lg w-96 p-6 relative animate-fadeIn text-black">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 cursor-pointer text-gray-500 hover:text-gray-800"
