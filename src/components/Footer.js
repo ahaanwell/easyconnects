@@ -21,7 +21,7 @@ function Footer(){
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">NowStart Solution</div>
+                <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">EasyConnects</div>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Professional PC optimization softwares for Windows. Clean up, speed up, and protect your computer with our advanced AI-powered tools.
@@ -136,7 +136,7 @@ function Footer(){
                 Support
               </h3>
               <p className='text-white'>
-                support@nowstart.co
+                support@easyconnects.live
               </p>
             </div>
           </div>
@@ -163,7 +163,7 @@ function Footer(){
           <div className="border-t border-white/10 pt-4 flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 mb-4 md:mb-0 text-center">
-                Copyright © 2025, All Right Reserved. NowStart Solution
+                Copyright © 2025, All Right Reserved. EasyConnects
               </p>
             </div>
           </div>

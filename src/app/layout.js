@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NowStart Solution - Advanced PC Optimization Software",
+  title: "EasyConnects - Advanced PC Optimization Software",
   description: "Professional PC cleaning, optimization, and security software. Clean up, speed up, and protect your computer with our advanced tools.",
 };
 

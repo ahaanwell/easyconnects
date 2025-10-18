@@ -31,7 +31,7 @@ export default function FormModal({ isOpen, onClose }) {
         >
           ✕
         </button>
-        <h2 className="text-2xl font-semibold mb-4 text-center">NowStart Solution</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-center">EasyConnects</h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
