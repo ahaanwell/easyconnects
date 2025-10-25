@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,15 +14,31 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "EasyConnects - Advanced PC Optimization Software",
-  description: "Professional PC cleaning, optimization, and security software. Clean up, speed up, and protect your computer with our advanced tools.",
+  description:
+    "Professional PC cleaning, optimization, and security software. Clean up, speed up, and protect your computer with our advanced tools.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        {/* ✅ Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17668832501"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17668832501');
+          `}
+        </Script>
+      </head>
+
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
